@@ -17,5 +17,5 @@ def count_calibration_values(file):
         sum += digits[0] * 10 + digits[-1]
     return sum
 
-file1 = open('Input.txt', 'r')
+file1 = open('01.data.txt', 'r')
 print(count_calibration_values(file1))
